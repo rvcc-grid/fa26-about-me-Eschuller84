@@ -1,0 +1,22 @@
+body{
+    background-color: #825B14;
+    color: #132281;
+    font-family: Neuton;
+    font-size: 20pt;
+}
+
+h1, h2, h3, h4, h5, h6, footer {
+    font-family: "Black Ops One";
+    font-size: 40pt;
+}
+header, footer{
+    text-align: center;
+}
+#hero {
+    text-align: center;
+    background-color: #827614;
+    padding: 10px;
+}
+#blurb{
+    text-align: center;
+}
