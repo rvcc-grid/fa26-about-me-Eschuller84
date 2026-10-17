@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, h6, footer {
     font-family: "Black Ops One";
     font-size: 40pt;
 }
+h2{
+    font-family: "Manufacturing Consent";
+}
 header, footer{
     text-align: center;
 }
@@ -19,4 +22,9 @@ header, footer{
 }
 #blurb{
     text-align: center;
+}
+#hobbies{
+    font-family: "Manufacturing Consent";
+    border: 30px solid purple;
+    background-image: linear-gradient(to right, #825B14,black);
 }
