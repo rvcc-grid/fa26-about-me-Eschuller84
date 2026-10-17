@@ -42,3 +42,11 @@ header, footer{
     text-align: center;
     font-family: "Manufacturing Consent";
 }
+/* Alice in Wonderland Text */
+#aiwtext{
+    font-family: Cookie;
+}
+#lorem p{
+    border: 5px solid yellow;
+    padding: 5px;
+}
