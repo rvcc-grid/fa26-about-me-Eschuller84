@@ -15,16 +15,30 @@ h2{
 header, footer{
     text-align: center;
 }
+/* Hero */
 #hero {
     text-align: center;
     background-color: #827614;
     padding: 10px;
 }
+/* Bio */
 #blurb{
     text-align: center;
 }
+/* Hobbies List */
 #hobbies{
     font-family: "Manufacturing Consent";
     border: 30px solid purple;
     background-image: linear-gradient(to right, #825B14,black);
+}
+/* Gallery */
+#gallery{
+    border: 5px solid black;
+}
+#gallery img{
+    max-width: 100%;
+}
+#gallery figure{
+    text-align: center;
+    font-family: "Manufacturing Consent";
 }
