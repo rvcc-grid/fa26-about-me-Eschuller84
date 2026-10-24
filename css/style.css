@@ -1,3 +1,8 @@
+/* *{
+    outline: 1px solid orange;
+}
+    */
+
 body{
     background-color: #825B14;
     color: #132281;
@@ -11,6 +16,7 @@ h1, h2, h3, h4, h5, h6, footer {
 }
 h2{
     font-family: "Manufacturing Consent";
+    margin-bottom: auto;
 }
 header, footer{
     text-align: center;
@@ -27,6 +33,9 @@ header, footer{
 }
 /* Hobbies List */
 #hobbies{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     font-family: "Manufacturing Consent";
     border: 30px solid purple;
     background-image: linear-gradient(to right, #825B14,black);
@@ -49,4 +58,17 @@ header, footer{
 #lorem p{
     border: 5px solid yellow;
     padding: 5px;
+}
+@media screen and (min-width: 60em){
+    #gallery figure{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    #gallery figcaption{
+        display:flex; 
+        justify-content: center; 
+        align-items: center; 
+        font-size: 3rem; 
+        margin-left: 1rem;
+    }
 }
