@@ -79,6 +79,33 @@
             <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/XhrGqxv21IA?si=6qyI3ZQ2JM_bUDrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>A short tour of the Sinister Studios website</p>
         </section>    
+        <section id="contact">
+            <h2>Contact Us!</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <fieldset>
+                    <legend>Contact Submission Form</legend>
+                <input type="hidden" name="access_key" value="87b8d201-314b-415e-8c93-ae4827606994">
+                <input type="hidden" name="subject" value="New message from my About Me page">
+                <input type="hidden" name="redirect" value="https://rvcc-grid.github.io/fa26-about-me-Eschuller84/thanks.html">
+                <input type="text" name="name" required placeholder="Name">
+                <input type="email" name="email" required placeholder="Email">
+                <input type="tel" name="phone" placeholder="Phone number">
+                <select id="phonetype">
+                    <option value="Landline">Landline</option>
+                    <option value="Cell Phone">Cell Phone</option>
+                </select>
+                <textarea name="message" required></textarea>
+                <p>Do you want us to reach out with any followup?</p>
+                <input type="radio" name="follow" id="followY" value="Y">
+                    <label for="followY">Y</label>
+                <input type="radio" name="follow" id="followN" value=""N">
+                    <label for="followN">N</label>
+                <div data-class="h-captcha" data-captcha="true"></div>
+                <script src="https://web3forms.com/client/script.js" async defer></script>
+                <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
         <p>© 2026 Eric Schuller</p>
