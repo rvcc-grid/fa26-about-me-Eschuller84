@@ -82,7 +82,7 @@
         <section id="contact">
             <h2>Contact Us!</h2>
             <form action="https://api.web3forms.com/submit" method="POST">
-                <fieldset>
+                <fieldset id="contactform">
                     <legend>Contact Submission Form</legend>
                 <input type="hidden" name="access_key" value="87b8d201-314b-415e-8c93-ae4827606994">
                 <input type="hidden" name="subject" value="New message from my About Me page">
@@ -91,10 +91,10 @@
                 <input type="email" name="email" required placeholder="Email">
                 <input type="tel" name="phone" placeholder="Phone number">
                 <select id="phonetype">
-                    <option value="Landline">Landline</option>
                     <option value="Cell Phone">Cell Phone</option>
+                    <option value="Landline">Landline</option>
                 </select>
-                <textarea name="message" required></textarea>
+                <textarea name="message" required placeholder="Type your message here"></textarea>
                 <p>Do you want us to reach out with any followup?</p>
                 <input type="radio" name="follow" id="followY" value="Y">
                     <label for="followY">Y</label>

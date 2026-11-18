@@ -59,6 +59,12 @@ header, footer{
     border: 5px solid yellow;
     padding: 5px;
 }
+#video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (min-width: 60em){
     #gallery figure{
         display:grid;
@@ -90,4 +96,24 @@ header, footer{
     hr{
         display:none;
     }
+}
+fieldset{
+    border: 4px sold #000;
+    padding 1.5 rem;
+}
+#contactform{
+    max-width: 800px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    input, select, textarea{
+        background-color: #000;
+        color: #132281;
+        width = 75%;
+        border: 3px solid purple;
+        border-radius: 5px;
+    }
+    textarea{
+        min-height: 150px;
+    } 
 }
